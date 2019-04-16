@@ -1,0 +1,41 @@
+<html>
+<head>
+  <title>Firebase Login</title>
+  <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div id="login_div" class="main-div">
+   <h3>Admin Login</h3>
+    <input type="email" placeholder="Email..." id="email_field" />
+    <input type="password" placeholder="Password..." id="password_field" />
+
+    <button onclick="login()">Login to Account</button>
+
+  </div>
+
+  <div id="user_div" class="logg">
+        <button onclick="logout()">Logout</button>
+  </div>
+
+
+
+ 
+<script src="https://www.gstatic.com/firebasejs/5.9.4/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBaFEVJqHpJqqk_GTu8eBf5cydikTRoa2o",
+    authDomain: "quick-data-transfer-fdf8b.firebaseapp.com",
+    databaseURL: "https://quick-data-transfer-fdf8b.firebaseio.com",
+    projectId: "quick-data-transfer-fdf8b",
+    storageBucket: "quick-data-transfer-fdf8b.appspot.com",
+    messagingSenderId: "1034546485492"
+  };
+  firebase.initializeApp(config);
+</script>
+  <script src="index.js"></script>
+
+</body>
+</html>

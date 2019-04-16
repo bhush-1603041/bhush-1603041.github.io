@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+#iframe
+{
+padding-left: 50px;
+}
+body {
+  margin: 0;
+  font-size: 28px;
+  font-family:sans-serif;
+  background-color:#ecede8;
+
+}
+h1
+{
+   text-align: center;
+   font-family: 'Josefin Sans', sans-serif;
+   font-size: 50px;
+}
+h2
+{
+  text-align:center;
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+}
+marquee
+{
+  color:red;
+  font-size: 20px;
+}
+.header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+}
+
+#navbar {
+  overflow: hidden;
+  z-index: 1;
+  background-color:#a039e5;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+#bb
+{
+  float:left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;  
+}
+
+#navbar a:hover {
+  background-color:#2196F3;
+  color:white;
+}
+#navbar b:hover {
+  background-color:#2196F3;
+  color:white;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+.img1{
+  height:500px;
+  display: inherit;
+  float: none;
+  margin-top: 105px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding:0px;
+  margin:auto;
+
+  
+}
+img{
+  height:200px;
+  display: inherit;
+  float: none;
+  margin-top: 105px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding:0px;
+  margin:auto;
+
+  
+}
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+/*gallery*/
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}/*code ends here*/
+
+/*image grid code starts here*/
+
+* {
+  box-sizing: border-box;
+}
+
+.body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+/*h1 {
+  font-size: 50px;
+  word-break: break-all;
+}*/
+
+.row {
+  margin: 10px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  display: none; /* Hide all elements by default */
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+/*image grid code ends here*/
+
+footer
+{
+  width: 100%;
+  height:275px;
+  background-color: #a039e5;
+ display: flex;
+  justify-content: center;
+ 
+}
+
+ul{
+list-style: none;
+
+}
+ul > li{
+margin: 5px;
+color:white;
+
+
+}
+.abc{
+ height: 200px;
+ width: 32%;
+ margin: auto;
+
+}
+.aa
+{
+  text-decoration: none;
+  color:white;
+  font-size: 18px;
+}
+.fon{
+  font-size: 18px;
+  color: white;
+  margin-top: 30px;
+}

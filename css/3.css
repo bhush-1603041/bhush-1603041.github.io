@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+h1
+{
+   text-align: center;
+   font-size: 50px;
+   margin: 0px;
+  font-family: 'Abril Fatface', cursive;
+  text-decoration: underline red;
+}
+
+body
+{margin: 0px;
+   background-color:#ecede8;
+}
+img
+{
+ padding-left: 270px;
+ padding-right: 100px;
+ height: 500px;
+}
+
+
+h2
+{
+font-family: 'Righteous', cursive;
+}
+
+.box{
+
+width: 100%;
+margin: 0px;
+padding-left: 20px;
+padding-right: 20px;
+background-color:#ecede8;
+border-top:2px solid black;
+text-align: center;
+}
+
+
+.border-box { 
+  box-sizing: border-box;
+  
+}
+
+footer
+{
+  width: 100%;
+  height:275px;
+  background-color: #a039e5;
+ display: flex;
+  justify-content: center;
+ 
+}
+
+ul{
+list-style: none;
+
+}
+ul > li{
+margin: 5px;
+color:white;
+
+
+}
+.abc{
+ height: 200px;
+ width: 32%;
+ margin: auto;
+
+}
+.aa
+{
+  text-decoration: none;
+  color:white;
+}
+.fon{
+  font-size: 17px;
+  color: white;
+  
+}
+
+#navbar {
+  overflow: hidden;
+  z-index: 1;
+  background-color:#a039e5;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+#navbar b
+{
+  float:right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;  
+}
+
+#navbar a:hover {
+  background-color:#2196F3;
+  color:white;
+}
+#navbar b:hover {
+  background-color:#2196F3;
+  color:white;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
